@@ -1,0 +1,43 @@
+{
+  "name": "PhotoPicker",
+  "version": "0.3.0",
+  "summary": "照片选择器",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://www.jianshu.com/p/027518c2bbf1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "饶鸿平": "1836619909@qq.com"
+  },
+  "source": {
+    "git": "http://121.43.48.157/raohonping123456/PhotoPicker.git",
+    "tag": "0.3.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "PhotoPicker/Classes/**/*",
+  "swift_versions": "5.0",
+  "resource_bundles": {
+    "PhotoPicker": [
+      "PhotoPicker/Assets/Resources/*.xcassets"
+    ]
+  },
+  "dependencies": {
+    "SnapKit": [
+      "~> 5.0.1"
+    ],
+    "RSKImageCropper": [
+      "~> 3.0.2"
+    ],
+    "SwiftLint": [
+      "~> 0.43.0"
+    ],
+    "SwifterSwift/UIKit": [
+      "~> 5.2.0"
+    ]
+  },
+  "swift_version": "5.0"
+}

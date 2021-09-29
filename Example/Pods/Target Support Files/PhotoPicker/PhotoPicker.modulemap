@@ -1,0 +1,6 @@
+framework module PhotoPicker {
+  umbrella header "PhotoPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
