@@ -20,10 +20,16 @@ class ViewController: UIViewController, PhotoPickerMangerDelegate, RSKImageCropV
 
         view.backgroundColor = .white
     
-        let button = UIButton.init(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        let button = UIButton()
         button.addTarget(self, action: #selector(showPhotoPicker), for: .touchUpInside)
-        button.backgroundColor = .red
+        button.setTitle("照片选择", for: .normal)
+        button.backgroundColor = .gray
         view.addSubview(button)
+        
+        button.snp.makeConstraints { make in
+            make.center.equalTo(view)
+            make.size.equalTo(CGSize(width: 200, height: 200))
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
