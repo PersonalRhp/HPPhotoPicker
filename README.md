@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 pod 'PhotoPicker'
 ```
 ## Config
-![Uploading ezgif.com-optimize.gif…]()
+![演示](https://github.com/PersonalRhp/HPPhotoPicker/blob/main/Example/PhotoPicker/ezgif.com-optimize.gif)
 ```
 1. 图片多选和单选
 2. 视频单选
