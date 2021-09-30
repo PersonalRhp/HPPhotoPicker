@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 pod 'PhotoPicker'
 ```
 ## Config
-![](https://upload-images.jianshu.io/upload_images/5126938-9383439df3766e31.gif?imageMogr2/auto-orient/strip)
+![现在](https://upload-images.jianshu.io/upload_images/5126938-9383439df3766e31.gif?imageMogr2/auto-orient/strip)
 ```
 1. 图片多选和单选
 2. 视频单选
