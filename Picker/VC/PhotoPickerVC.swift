@@ -434,7 +434,6 @@ extension PhotoPickerVC {
             })
         }
         
-        // 请求完刷新列表
         group.notify(queue: dispatchQueue) {
             DispatchQueue.main.async {
                 self.delegate?.photoPickerDidFinish(selectPhotos: self.selectPhotoModels)
