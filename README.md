@@ -41,6 +41,7 @@ pod 'PhotoPicker'
 
 需要自己实现照片选择器的同学可以根据自己的项目进行修改,
 也可以直接使用，目前未集成公有库，后期有同学需要，会考虑集成pods
+
 简书 [照片选择器](https://www.jianshu.com/p/e424b11f3495)
 
 ## Author
